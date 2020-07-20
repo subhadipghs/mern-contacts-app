@@ -1,0 +1,29 @@
+.contact__form {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: column;
+}
+label {
+	text-align: left;
+	padding: 10px 0px;
+}
+.input__type {
+	padding: 10px;
+	margin-bottom: 10px;
+	background: #f2f2f2;
+	border: none;
+}
+.input__type:focus {
+	outline: none;
+}
+input[type="submit"] {
+	border: none;
+	margin-top: 10px;
+	padding: 10px;
+	background-color: lightgreen;
+	color: white;
+}
+.center {
+	margin: 0 auto;
+}
