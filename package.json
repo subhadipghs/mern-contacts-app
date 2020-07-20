@@ -10,15 +10,16 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-icons": "^3.10.0",
-    "react-scripts": "3.4.1"
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "react-transition-group": "^4.4.1",
+    "reactstrap": "^8.5.1"
   },
   "scripts": {
-    "start": "npm run build:css && react-scripts start",
-    "build": "npm run build:css && react-scripts build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "build:css": "postcss src/assets/tailwind.css -o src/assets/main.css",
-    "watch:css": "postcss src/assets/tailwind.css -o src/assets/main.css"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -36,8 +37,6 @@
     ]
   },
   "devDependencies": {
-    "autoprefixer": "^9.8.5",
-    "postcss-cli": "^7.1.1",
-    "tailwindcss": "^1.5.1"
+    "autoprefixer": "^9.8.5"
   }
 }
