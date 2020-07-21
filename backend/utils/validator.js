@@ -1,13 +1,15 @@
-/** Validate phone number
- *
- * @return true if number it's number
- */
-function validatePhone(phone) {
-	return /^\d{10}$/.test(phone);
+const bcrypt = require('bcryptjs');
+
+function isEmpty(...rest) {
+	return rest.some(e => !e);
+}
+
+async function compare(password, hash) {
+	return await bcrypt.compare(password, hash);
 }
 
 
-
-module.exports = {
-	validatePhone: validatePhone,
+module.exports.validator = {
+	isEmpty: isEmpty,
+	compare: compare
 };

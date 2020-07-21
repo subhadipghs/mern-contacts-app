@@ -6,6 +6,6 @@ router.get('/', (req, res) => {
 })
 
 router.use('/contacts', require('./api/v1/contact'));
-
+router.use('/users', require('./api/v1/user'));
 
 module.exports = router;
