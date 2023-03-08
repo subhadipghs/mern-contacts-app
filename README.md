@@ -19,8 +19,8 @@ MERN CONTACTS
 
 1. ReactJS
 2. ExpressJS
-3. MongoDB
-4. Javascript
+3. Javascript
+4. MongoDB
 
 ## Todo
 
