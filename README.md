@@ -1,4 +1,4 @@
-# CONTACTS APP
+# CONTACTS APP written in MERN
 
 MERN CONTACTS
 
@@ -15,14 +15,14 @@ MERN CONTACTS
 - :radio_button: Contacts Home Page
 - :radio_button: Login/Register Page
 
-## Tech Stack
+### Tech Stack
 
 1. ReactJS
 2. ExpressJS
-3. MongoDB
-4. Javascript
+3. Javascript
+4. MongoDB
 
-## Todo
+### Todo
 
 1. Use Typescript
 2. Complete the UI component
