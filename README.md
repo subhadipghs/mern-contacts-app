@@ -1,9 +1,5 @@
 # CONTACTS APP written in MERN
 
-MERN CONTACTS
-
-## Features
-
 ### Backend
 
 - :heavy_check_mark: API Endpoints :earth_asia:
