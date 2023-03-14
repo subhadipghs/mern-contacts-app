@@ -1,6 +1,9 @@
 # CONTACTS APP written in MERN
 
-MERN CONTACTS
+```sh
+MERN CONTACTS APP IN MERN TECHNOLOGY
+
+```
 
 ## Features
 
